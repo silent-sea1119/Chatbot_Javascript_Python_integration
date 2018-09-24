@@ -1,5 +1,3 @@
-# Chatbot_Javascript_Python_integration
-
 This app is a chatbot with tensorflow in python. Front end ui with reactjs backened with nodejs express. 
 Integration JS/python has been done with rabbitmq. The app has been dockerised and deployed with kubernetes.
 
