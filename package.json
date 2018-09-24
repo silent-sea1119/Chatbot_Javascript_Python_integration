@@ -1,0 +1,24 @@
+{
+  "name": "xx_node_simple_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server_basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.18.4",
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.2"
+  }
+}
